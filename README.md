@@ -84,20 +84,6 @@ The preliminary hardware architecture includes:
 - Wi-Fi / BLE
 - 4G modem interface
 
-## Project Structure
-src
-├── bluetooth
-├── button
-├── config
-├── display
-├── fuel
-├── menu
-├── network
-├── power
-├── rtc
-├── storage
-└── main.cpp
-
 ## Important Note
 This repository is a demonstration project prepared to show the proposed technical approach.
 The code, schematic and PCB concept are not the completed prototype or production-ready design for a specific client application.
