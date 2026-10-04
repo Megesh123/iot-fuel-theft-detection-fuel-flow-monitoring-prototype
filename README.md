@@ -85,17 +85,17 @@ The preliminary hardware architecture includes:
 - 4G modem interface
 
 ## Project Structure
-src/
-├── bluetooth/
-├── button/
-├── config/
-├── display/
-├── fuel/
-├── menu/
-├── network/
-├── power/
-├── rtc/
-├── storage/
+src
+├── bluetooth
+├── button
+├── config
+├── display
+├── fuel
+├── menu
+├── network
+├── power
+├── rtc
+├── storage
 └── main.cpp
 
 ## Important Note
@@ -112,7 +112,7 @@ The final implementation would depend on the actual:
 - Valve requirements
 - Fuel-theft detection conditions
 The final hardware and firmware would be developed and validated according to the confirmed system requirements.
-Development Platform
+## Development Platform
 - ESP32-S3
 - PlatformIO
 - Embedded C/C++
