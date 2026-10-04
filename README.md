@@ -1,3 +1,4 @@
+Replace its contents with this:
 # IoT Fuel Theft Detection & Fuel Flow Monitoring Prototype
 
 ## Overview
@@ -29,7 +30,6 @@ The project demonstrates embedded firmware architecture, sensor integration, loc
 
 A new device can enter provisioning mode by holding the MENU button during power-up.
 
-```text
 Power ON
    |
    v
@@ -59,14 +59,16 @@ MENU button detected?
                        |
                        v
                       MQTT
-Communication
+
+##Communication
 The demonstration architecture supports:
 - BLE provisioning
 - Wi-Fi communication
 - MQTT communication
 - 4G communication / fallback
 Communication parameters such as device configuration and MQTT settings can be stored in non-volatile memory.
-Hardware Concept
+
+##Hardware Concept
 The preliminary hardware architecture includes:
 - ESP32-S3
 - 12 V power input
@@ -81,7 +83,8 @@ The preliminary hardware architecture includes:
 - Solenoid valve control output
 - Wi-Fi / BLE
 - 4G modem interface
-Project Structure
+
+##Project Structure
 src/
 ├── bluetooth/
 ├── button/
@@ -95,7 +98,7 @@ src/
 ├── storage/
 └── main.cpp
 
-Important Note
+##Important Note
 This repository is a demonstration project prepared to show the proposed technical approach.
 The code, schematic and PCB concept are not the completed prototype or production-ready design for a specific client application.
 The final implementation would depend on the actual:
@@ -114,6 +117,3 @@ Development Platform
 - PlatformIO
 - Embedded C/C++
 - Arduino framework
-
-
-
